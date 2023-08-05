@@ -1,0 +1,3 @@
+  List<Integer> peekedList = numbers.stream()
+                .peek(num -> System.out.println("Peeking element: " + num))
+                .collect(Collectors.toList());
