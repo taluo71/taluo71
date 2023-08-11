@@ -1,0 +1,21 @@
+package com.xiaoshan.demo;
+
+class Net implements AutoCloseable{
+	@Override
+	public void close() throws Exception{
+		System.out.println
+	}
+	public void info() throws Exception{
+		System.out.println
+	}
+}
+
+public class TestDemo{
+	public static void main(String[]  args){
+		try (Net n = new Net()){
+			n.info();
+		}catch (Exception e){
+			e.printStackTrace();
+		}
+	}
+}
