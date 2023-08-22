@@ -1,0 +1,27 @@
+QString D_to_H_code(int d)
+{
+	switch (d)
+	{
+	case 10:
+		return "A";
+		break;
+	case 11:
+		return "B";
+		break;
+	case 12:
+		return "C";
+		break;
+	case 13:
+		return "D";
+		break;
+	case 14:
+		return "E";
+		break;
+	case 15:
+		return "F";
+		break;
+	default:
+		return QString::number(d);
+		break;
+	}
+}
